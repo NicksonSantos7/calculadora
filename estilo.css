@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+
+    background: url(imagens/fundo.full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#titulo2 {
+    margin: auto;
+    padding-bottom: 15px;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.calculadora {
+    background-color: black;
+    color: white;
+    max-width: 300px;
+    height: 480px;
+    padding: 15px;
+
+    border-radius: 14px;
+    margin: auto;
+
+    text-align: center;
+    justify-content: center;
+}
+
+#resultado {
+    background-color: white;
+    max-width: 235px;
+    height: 50px;
+
+    margin: auto;   
+    color: black;
+
+    text-align: right;
+    
+    font-size: 1.5em;
+
+
+}
+
+.tabela {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.botao {
+    height: 55px;
+    width: 55px;
+
+    margin: 2px;
+    color: white;
+    border: none;
+    background-color: #5f5e5e81;
+    cursor: pointer;
+
+    
+    font-size: 1.3em;
+}
+
+.botao:hover {
+    background-color: #97fd1265;
+}
+
+#maior1 {
+    height: 114px;
+}
+
+#maior2 {
+    width: 114px;
+}
+
+
